@@ -1,0 +1,79 @@
+@import "~bootstrap/scss/bootstrap";
+
+*{
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.main {
+  width: 400px;
+  margin: auto;
+}
+
+.weather-area {
+  width: 100%;
+  border: 1px solid #eaeaea;
+  margin: 10px 0;
+  padding: 30px 20px;
+  border-radius: 25px;
+}
+.weather-body {
+  margin:25px 0;
+  text-align: center;
+}
+
+.weather-card {
+  border:1px solid #eaeaea;
+  width: 90px;
+  height: 115px;
+  border-radius: 15px;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+.weather-card div{
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.weather-header img {
+  width: 50px;
+}
+
+.text-faded-small {
+  color: #bfbfbf;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.text-large{
+  font-size: 50px;
+  color: #333;
+}
+
+.brdr-bot{
+  border-bottom: 1px solid #ebebeb;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.bold-text {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.loader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.weather-parameters {
+  font-size: 14px;
+  color: #383838;
+}
